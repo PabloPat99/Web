@@ -1,1 +1,108 @@
-Pagina web de Pablo
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Patiño - Data Scientist</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .project-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pablo Patiño</h1>
+        <p>Data Scientist</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>Soy un Data Scientist apasionado por el análisis de datos y la programación. Me especializo en Python y estoy constantemente actualizando mis conocimientos en nuevas tecnologías y metodologías del campo de la ciencia de datos.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Python (Pandas, NumPy, Scikit-learn)</li>
+                <li>Análisis de datos</li>
+                <li>Machine Learning</li>
+                <li>Visualización de datos</li>
+                <li>SQL</li>
+                <li>Estadística</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos Personales</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción del proyecto...</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción del proyecto...</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción del proyecto...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <p>¿Interesado en colaborar? ¡Contáctame!</p>
+            <p>Email: <a href="mailto:ppatino1999@gmail.com">ppatino1999@gmail.com</a></p>
+            <p>Teléfono: <a href="tel:+34647106612">647 106 612</a></p>
+        </section>
+    </div>
+</body>
+</html>
